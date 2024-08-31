@@ -86,7 +86,7 @@ function Analytics({showCreateQuiz, showUpdateQuiz, isDelete, setIsDelete, handl
   }
 
   const handleShare = (id) => {
-    const link = `https://quizzie-frontend-sandy.vercel.app/${id}/attempt`
+    const link = `https://quizzie-mern-frontend.vercel.app/${id}/attempt`
     copyToClipboard(link)
   }
 
