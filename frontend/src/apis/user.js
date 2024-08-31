@@ -1,5 +1,5 @@
 import axios from 'axios'
-const url = 'https://quizzie-backend-app-q8fu.onrender.com/api'
+const url = 'https://quizzie-mern-backend.vercel.app/api'
 
 export const Userlogin = async ({email, password}) => {
     try{

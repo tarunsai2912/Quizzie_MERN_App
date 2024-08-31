@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function CreateQuiz({handleAnalytics}) {
 
-  const url = 'https://quizzie-backend-app-q8fu.onrender.com/api'
+  const url = 'https://quizzie-mern-backend.vercel.app/api'
   const token = JSON.parse(localStorage.getItem('authToken'))
   const [loading, setLoading] = useState(false)
   const [isContinue, setIsContinue] = useState(false)

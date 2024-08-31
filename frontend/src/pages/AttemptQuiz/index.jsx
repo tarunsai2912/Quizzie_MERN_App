@@ -7,7 +7,7 @@ import './index.css'
 function AttemptQuiz() {
 
   const { id } = useParams()
-  const url = 'https://quizzie-backend-app-q8fu.onrender.com/api'
+  const url = 'https://quizzie-mern-backend.vercel.app/api'
   const [quiz, setQuiz] = useState(null)
   const [answers, setAnswers] = useState([])
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)

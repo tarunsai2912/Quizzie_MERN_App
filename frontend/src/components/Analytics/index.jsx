@@ -12,7 +12,7 @@ import CreateQuiz from '../CreateQuiz'
 
 function Analytics({showCreateQuiz, showUpdateQuiz, isDelete, setIsDelete, handleCreateQuiz, handleUpdateQuiz, handleQuizAnalytics}) {
 
-  const url = 'https://quizzie-backend-app-q8fu.onrender.com/api'
+  const url = 'https://quizzie-mern-backend.vercel.app/api'
   const token = JSON.parse(localStorage.getItem('authToken'))
   const [quizData, setQuizData] = useState([])
   const [loading, setLoading] = useState(false)

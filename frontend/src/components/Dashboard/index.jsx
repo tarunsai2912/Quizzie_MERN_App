@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function Dashboard() {
 
-  const url = 'https://quizzie-backend-app-q8fu.onrender.com/api'
+  const url = 'https://quizzie-mern-backend.vercel.app/api'
   const userId = JSON.parse(localStorage.getItem('userId'))
   const token = JSON.parse(localStorage.getItem('authToken'))
   const [totalQuizzes, setTotalQuizzes] = useState('') 
