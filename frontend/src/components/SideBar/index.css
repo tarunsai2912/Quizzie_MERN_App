@@ -1,0 +1,85 @@
+.sidebar-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+}
+.head-div-sidebar{
+    height: 13vh;
+}
+.head-sidebar{
+    font-family: Jomhuria;
+    font-size: 5rem;
+    font-weight: 400;
+    color: #474444;
+    cursor: pointer;
+    position: relative;
+    bottom: 4vh;
+    left: 2vw;
+}
+.mid-div-sidebar{
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+.dash-sidebar{
+    width: 14.5vw;
+    height: 4vh;
+    font-family: Poppins;
+    color: #474444;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: 0.25vw;
+}
+.analy-sidebar{
+    width: 14.5vw;
+    height: 4vh;
+    font-family: Poppins;
+    color: #474444;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: 0.25vw;
+}
+.create-sidebar{
+    width: 14.5vw;
+    height: 4vh;
+    font-family: Poppins;
+    color: #474444;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left: 0.25vw;
+}
+.foot-div-sidebar{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+.line-sidebar{
+    height: 0vh;
+    width: 10vw;
+    border: 1px solid #000000;
+    position: relative;
+    left: 2.5vw;
+}
+.logout-sidebar{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #474444;
+    cursor: pointer;
+}

@@ -1,0 +1,161 @@
+.reg-container{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.name-div-reg{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    position: relative;
+    left: 11vw;
+}
+.name-para-reg{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 20vw;
+    text-align: right;
+    color: #474444;
+    position: relative;
+    bottom: 2.5vh;
+}
+.name-input-reg{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    height: 4.5vh;
+    width: 25vw;
+    background-color: #F4F4F4;
+    border-radius: 10px 10px 0px 0px;
+}
+.name-err-reg{
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: 500;
+    position: relative;
+    top: 1.3vh;
+    right: 27vw;
+}
+.email-div-reg{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    position: relative;
+    left: 11vw;
+}
+.email-para-reg{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    width: 20vw;
+    text-align: right;
+    font-weight: 600;
+    color: #474444;
+    position: relative;
+    bottom: 2.5vh;
+}
+.email-input-reg{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    height: 4.5vh;
+    width: 25vw;
+    background-color: #F4F4F4;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    border: 0px 0px 2px 0px;
+    opacity: 0px;
+}
+.email-err-reg{
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: 500;
+    position: relative;
+    top: 1.3vh;
+    right: 27vw;
+}
+.pass-div-reg{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    position: relative;
+    left: 11vw;
+}
+.pass-para-reg{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    width: 20vw;
+    text-align: right;
+    font-weight: 600;
+    color: #474444;
+    position: relative;
+    bottom: 2.5vh;
+}
+.pass-input-reg{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    height: 4.5vh;
+    width: 25vw;
+    background-color: #F4F4F4;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    border: 0px 0px 2px 0px;
+    opacity: 0px;
+}
+.pass-err-reg{
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: 500;
+    position: relative;
+    top: 1.3vh;
+    right: 27vw;
+}
+.confpass-div-reg{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    position: relative;
+    left: 11vw;
+}
+.confpass-para-reg{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    width: 20vw;
+    text-align: right;
+    font-weight: 600;
+    color: #474444;
+    position: relative;
+    bottom: 2.5vh;
+}
+.confpass-input-reg{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    height: 4.5vh;
+    width: 25vw;
+    background-color: #F4F4F4;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    border: 0px 0px 2px 0px;
+    opacity: 0px;
+}
+.confpass-err-reg{
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: 500;
+    position: relative;
+    top: 1.3vh;
+    right: 27vw;
+}
+.signup-btn-reg{
+    background-color: #A9BCFF;
+    width: 15vw;
+    height: 5vh;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #474444;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    left: 32vw;
+}

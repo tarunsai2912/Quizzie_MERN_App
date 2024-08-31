@@ -1,0 +1,214 @@
+.analy-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+.head-analy{
+    font-family: Poppins;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #5076FF;
+}
+.tab-analy{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10vw;
+}
+.tabh-div-analy{
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #5076FF;
+    border-radius: 10px;
+}
+.tabh1-analy{
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: .9vh;
+    position: relative;
+    left: 1vw;
+}
+.tabh2-analy{
+    font-family: Poppins;
+    width: 6vw;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: .9vh;
+    position: relative;
+    left: 3vw;
+}
+.tabh3-analy{
+    font-family: Poppins;
+    width: 6vw;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: .9vh;
+    position: relative;
+    left: 12vw;
+}
+.tabh4-analy{
+    font-family: Poppins;
+    width: 6vw;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: .9vh;
+    position: relative;
+    left: 17vw;
+}
+.tabd-div-analy{
+    height: 5vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.tabd1-analy{
+    font-family: Poppins;
+    width: 2vw;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    padding-top: .9vh;
+    position: relative;
+    left: 1vw;
+}
+.tabd2-analy{
+    font-family: Poppins;
+    width: 13vw;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    text-align: left;
+    color: #000000;
+    padding-top: .9vh;
+    position: relative;
+    left: 3vw;
+}
+.tabd2-analy:hover{
+    white-space: nowrap;
+    overflow: visible;
+    z-index: 1;
+}
+.tabd3-analy{
+    font-family: Poppins;
+    width: 8vw;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    color: #000000;
+    padding-top: .9vh;
+    position: relative;
+    left: 5vw;
+}
+.tabd4-analy{
+    font-family: Poppins;
+    width: 3vw;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    color: #000000;
+    padding-top: .9vh;
+    position: relative;
+    left: 10vw;
+}
+.tabd5-analy{
+    font-family: Poppins;
+    width: 6vw;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    padding-top: .9vh;
+    position: relative;
+    left: 14vw;
+}
+.tabd6-analy{
+    font-family: Poppins;
+    width: 13vw;
+    font-size: 1rem;
+    text-decoration: underline;
+    font-weight: 600;
+    text-align: left;
+    color: #000000;
+    cursor: pointer;
+    padding-top: .9vh;
+    position: relative;
+    left: 17vw;
+}
+.del-div-analy{
+    width: 50vw;
+    height: 35vh;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+    bottom: 85vh;
+    left: 17vw;
+}
+.del-para-analy{
+    width: 30vw;
+    height: 15vh;
+    font-family: Poppins;
+    color: #474444;
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    left: 10vw;
+    top: 4vh;
+}
+.del-grid-analy{
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    position: relative;
+    left: 8vw;
+    top: 5vh;
+}
+.del-btn-analy{
+    background-color: #FF4B4B;
+    border: none;
+    border-radius: 10px;
+    height: 5vh;
+    width: 15vw;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.del-cncl-analy{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    height: 5vh;
+    width: 15vw;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px #00000040;
+    color: #474444;
+    cursor: pointer;
+}

@@ -1,0 +1,212 @@
+.quizan-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.top-div-quizan{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+}
+.top-head1-quizan{
+    height: 16.5vh;
+    width: 55vw;
+    font-family: Poppins;
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-align: left;
+    color: #5076FF;
+    position: relative;
+    left: 3vw;
+}
+.top-grid-quizan{
+    display: flex;
+    width: 15vw;
+    flex-direction: column;
+    position: relative;
+    left: 15vw;
+}
+.top-create1-quizan{
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    color: #FF5D01;
+    position: relative;
+    top: 2vh;
+}
+.top-impr1-quizan{
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    color: #FF5D01;
+    position: relative;
+    bottom: 2vh;
+}
+.main-container-quizan{
+    display: flex;
+    flex-direction: column;
+    gap: 17vh;
+    position: relative;
+    bottom: 7vh;
+}
+.main-div-quizan{
+    width: 70vw;
+    height: 12vh;
+    position: relative;
+    left: 3vw;
+    bottom: 6vh;
+}
+.main-para1-quizan{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    color: #000000;
+}
+.main1-grid-quizan{
+    width: 70vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5vw;
+}
+.att-div-quizan{
+    background-color: #FFFFFF;
+    height: 15vh;
+    border-radius: 5px;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+.att-no-quizan{
+    height: 5vh;
+    font-family: Poppins;
+    font-size: 2rem;
+    color: #474444;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    bottom: 3vh;
+}
+.att-para-quizan{
+    height: 5vh;
+    font-family: Poppins;
+    font-size: 1rem;
+    color: #474444;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    bottom: 7vh;
+}
+.corr-div-quizan{
+    background-color: #FFFFFF;
+    height: 15vh;
+    border-radius: 5px;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+.corr-no-quizan{
+    height: 5vh;
+    font-family: Poppins;
+    font-size: 2rem;
+    color: #474444;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    bottom: 3vh;
+}
+.corr-para-quizan{
+    height: 5vh;
+    font-family: Poppins;
+    font-size: 1rem;
+    color: #474444;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    bottom: 7vh;
+}
+.inco-div-quizan{
+    background-color: #FFFFFF;
+    height: 15vh;
+    border-radius: 5px;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+.inco-no-quizan{
+    height: 5vh;
+    font-family: Poppins;
+    font-size: 2rem;
+    color: #474444;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    bottom: 3vh;
+}
+.inco-para-quizan{
+    height: 5vh;
+    font-family: Poppins;
+    font-size: 1rem;
+    color: #474444;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    bottom: 7vh;
+}
+.ques-null-quizan{
+    border: 2px solid #D7D7D7;
+    border-radius: 2px;
+}
+.main2-grid-quizan{
+    width: 80vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5vw;
+}
+.opt-grid-quizan{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    height: 12vh;
+    width: 12vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+}
+.opt-no-quizan{
+    font-family: Poppins;
+    height: 5vh;
+    width: 4vw;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #474444;
+    position: relative;
+    bottom: 1.5vh;
+}
+.opt-para1-quizan{
+    font-family: Poppins;
+    height: 5vh;
+    width: 8vw;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #474444;
+    text-align: left;
+    position: relative;
+    top: 1.5vh;
+    right: 1vw;
+}
+.opt-null-quizan{
+    border: 2px solid #D7D7D7;
+    border-radius: 2px;
+}
+

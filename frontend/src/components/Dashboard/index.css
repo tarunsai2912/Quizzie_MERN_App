@@ -1,0 +1,199 @@
+.dash-container{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+.top-div-dash{
+    width: 67vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    position: relative;
+    top: 15vh;
+    left: 10vw;
+}
+.quiz-div-dash{
+    background-color: #FFFFFF;
+    width: 20vw;
+    border-radius: 10px;
+}
+.quiz-no-dash{
+    width: 6vw;
+    height: 9vh;
+    font-family: Poppins;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #FF5D01;
+    position: relative;
+    bottom: 7vh;
+    left: 5vw;
+}
+.quiz-para1-dash{
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FF5D01;
+    position: relative;
+    left: 1vw;
+}
+.quiz-para2-dash{
+    width: 8vw;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FF5D01;
+    position: relative;
+    bottom: 13vh;
+    left: 5vw;
+}
+.ques-div-dash{
+    background-color: #FFFFFF;
+    width: 20vw;
+    border-radius: 10px;
+}
+.ques-no-dash{
+    width: 7vw;
+    height: 9vh;
+    font-family: Poppins;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #60B84B;
+    position: relative;
+    bottom: 7vh;
+    left: 3vw;
+}
+.ques-para1-dash{
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #60B84B;
+    position: relative;
+    left: 1vw;
+}
+.ques-para2-dash{
+    width: 8vw;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #60B84B;
+    position: relative;
+    bottom: 13vh;
+    left: 3vw;
+}
+.impr-div-dash{
+    background-color: #FFFFFF;
+    width: 20vw;
+    border-radius: 10px;
+}
+.impr-no-dash{
+    width: 7vw;
+    height: 9vh;
+    font-family: Poppins;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #5076FF;
+    position: relative;
+    bottom: 7vh;
+    left: 3vw;
+}
+.impr-para1-dash{
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #5076FF;
+    position: relative;
+    left: 1vw;
+}
+.impr-para2-dash{
+    width: 8vw;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #5076FF;
+    position: relative;
+    bottom: 13vh;
+    left: 3vw;
+}
+.foot-div-dash{
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    position: relative;
+    top: 13vh;
+}
+.foot-head-dash{
+    width: 20vw;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #474444;
+    position: relative;
+    left: 10vw;
+}
+.quiz-array-dash{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+    width: 66vw;
+    position: relative;
+    left: 10vw;
+}
+.quizs-div-dash{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 15vw;
+    height: 10vh; 
+    cursor: pointer;
+}
+.quizs-title-dash{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #474444;
+    height: 3.5vh;
+    width: 11vw;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    position: relative;
+    bottom: .75vh;
+    left: 0.5vw;
+}
+.quizs-title-dash:hover{
+    overflow: visible;
+    white-space: wrap;
+    z-index: 1;
+}
+.quizs-img-dash{
+    position: relative;
+    bottom: 6vh;
+    left: 13.5vw;
+}
+.quizs-impr-dash{
+    width: 2vw;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FF5D01;
+    text-align: right;
+    position: relative;
+    bottom: 11.5vh;
+    left: 11.5vw;
+}
+.quizs-para-dash{
+    font-family: Poppins;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #60B84B;
+    position: relative;
+    bottom: 11vh;
+    left: 0.5vw;
+}

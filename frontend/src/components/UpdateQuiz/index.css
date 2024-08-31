@@ -1,0 +1,447 @@
+.update-quiz-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+    opacity: 0.9;
+    position: relative;
+    bottom: 100vh;
+}
+.top-div-updatequiz{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 40vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 28vh;
+    left: 5vw;
+}
+.title-inp-updatequiz{
+    height: 7vh;
+    width: 35vw;
+    box-shadow: 0px 0px 25px 0px #00000026;
+    border-radius: 10px;
+    border: none;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+    color: #9F9F9F;
+    padding-left: 1vw;
+    position: relative;
+    top: 7vh;
+    left: 6vw;
+}
+.quiztype-div-updatequiz{
+    height: 5vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    position: relative;
+    top: 9vh;
+    left: 6.5vw;
+}
+.quiztype-head-updatequiz{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+    color: #9F9F9F;
+    position: relative;
+    bottom: 2vh;
+}
+.qna-btn-updatequiz{
+    width: 9vw;
+    box-shadow: 0px 0px 25px 0px #00000026;
+    border: none;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+.poll-btn-updatequiz{
+    width: 9vw;
+    box-shadow: 0px 0px 25px 0px #00000026;
+    border: none;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+.next-div-updatequiz{
+    height: 5vh;
+    width: 36vw;
+    display: flex;
+    flex-direction: row;
+    gap: 8vw;
+    position: relative;
+    top: 15vh;
+    left: 6vw;
+}
+.cncl-btn-updatequiz{
+    width: 14vw;
+    box-shadow: 0px 0px 15px 0px #00000040;
+    background-color: #FFFFFF;
+    border: none;
+    color: #474444;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: Poppins;
+    cursor: pointer;
+}
+.next-btn-updatequiz{
+    width: 14vw;
+    background-color: #60B84B;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: Poppins;
+    cursor: pointer;
+}
+.update-ques-container{
+    background-color: #FFFFFF;
+    width: 70vw;
+    height: 80vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10vh;
+    left: 3vw;
+}
+.no-div-updateques{
+    height: 8vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    gap: 25vw;
+    position: relative;
+    top: 3vh;
+    left: 5vw;
+}
+.quest-arr-updateques{
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+}
+.quest-div-updateques{
+    height: 6vh;
+    width: 4vw;
+    display: flex;
+    flex-direction: row;
+}
+.ques-no-updateques{
+    background-color: #FFFFFF;
+    height: 6vh;
+    width: 3vw;
+    border: none;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px 0px #00000026;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: .8rem;
+    color: #9F9F9F;
+    font-weight: 500;
+    text-align: center;
+}
+.ques-para-updateques{
+    width: 10vw;
+    height: 4vh;
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+}
+.top-div-updateques{
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5vh;
+    left: 10vh;
+}
+.quesf-div-updateques{
+    width: 60vw;
+    height: 40vh;
+}
+.ques-name-updateques{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 25px 0px #00000026;
+    height: 5vh;
+    width: 59vw;
+    border: none;
+    color: #9F9F9F;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 1vw;
+}
+.opt-div-updateques{
+    height: 4vh;
+    width: 60vw;
+}
+.opt-para-updateques{
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    color: #9F9F9F;
+    position: relative;
+    left: 1vw;
+}
+.opt-sel-updateques{
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    position: relative;
+    left: 9vw;
+    bottom: 3vh;
+}
+.optinp-div1-updateques{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    position: relative;
+    right: 2.4vw;
+    top: 2vh;
+}
+.optinp-div2-updateques{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+.null-div-updateques{
+    width: 1.5vw;
+    height: 1.5vh;
+}
+.optinp-inp1-updateques{
+    width: 16vw;
+    height: 4.5vh;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 0px #00000026;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 1vw;
+}
+.optinp-inp2-updateques{
+    width: 19vw;
+    height: 4.5vh;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 0px #00000026;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 1vw;
+}
+.optinp-para-updateques{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+.optinp-inp3-updateques{
+    width: 13vw;
+    height: 4.5vh;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 0px #00000026;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 1vw;
+}
+.optinp-inp4-updateques{
+    width: 18vw;
+    height: 4.5vh;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 0px #00000026;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 1vw;
+}
+.tim-div-updateques{
+    height: 22vh;
+    width: 5vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 54vw;
+    bottom: 25vh;
+}
+.tim1-div-updateques{
+    height: 0vh;
+    width: 0vw;
+}
+.tim-para-updateques{
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+.tim-off-updateques{
+    border-radius: 10px;
+    border: none;
+    height: 4vh;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px #00000026;
+    cursor: pointer;
+}
+.tim-5sec-updateques{
+    border-radius: 10px;
+    border: none;
+    height: 4vh;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px #00000026;
+    cursor: pointer;
+    position: relative;
+    top: 1vh;
+}
+.tim-10sec-updateques{
+    border-radius: 10px;
+    border: none;
+    height: 4vh;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px #00000026;
+    cursor: pointer;
+    position: relative;
+    top: 2vh;
+}
+.foot-div-updateques{
+    width: 60vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    gap: 25vw;
+    position: relative;
+    left: 7vw;
+    top: 10vh;
+}
+.foot-cncl-updateques{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    height: 5vh;
+    width: 15vw;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px #00000040;
+    color: #474444;
+    cursor: pointer;
+}
+.foot-crt-updateques{
+    background-color: #60B84B;
+    border: none;
+    border-radius: 10px;
+    height: 5vh;
+    width: 15vw;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.success-container-updateques{
+    background-color: #FFFFFF;
+    width: 50vw;
+    height: 40vh;
+    border-radius: 10px;
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+}
+.success-close-updateques{
+    cursor: pointer;
+    position: relative;
+    top: 1vh;
+    left: 47.5vw;
+}
+.success-div-updateques{
+    height: 35vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5vw;
+}
+.success-head-updateques{
+    width: 30vw;
+    height: 13vh;
+    font-family: Poppins;
+    font-size: 2rem;
+    color: #474444;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    bottom: 3vh;
+    left: 5vw;
+}
+.link-inp-updateques{
+    background-color: #EDEDED;
+    height: 5vh;
+    width: 30vw;
+    border-radius: 10px;
+    border: none;
+    font-family: Poppins;
+    font-size: 1rem;
+    color: #474444;
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+    bottom: 3vh;
+    left: 5vw;
+}
+.share-btn-updateques{
+    background-color: #60B84B;
+    border: none;
+    border-radius: 10px;
+    height: 4vh;
+    width: 15vw;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+    top: 2vh;
+    left: 12vw;
+}

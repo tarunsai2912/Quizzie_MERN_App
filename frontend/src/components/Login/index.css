@@ -1,0 +1,78 @@
+.log-container{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3vh;
+}
+.email-div-log{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    position: relative;
+    left: 11vw;
+}
+.email-para-log{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 20vw;
+    text-align: right;
+    color: #474444;
+    position: relative;
+    bottom: 2.5vh;
+}
+.email-input-log{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    height: 4.5vh;
+    width: 25vw;
+    background-color: #F4F4F4;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    border: 0px 0px 2px 0px;
+    opacity: 0px;
+}
+.pass-div-log{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    position: relative;
+    left: 11vw;
+}
+.pass-para-log{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 20vw;
+    text-align: right;
+    color: #474444;
+    position: relative;
+    bottom: 2.5vh;
+}
+.pass-input-log{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    height: 4.5vh;
+    width: 25vw;
+    background-color: #F4F4F4;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    border: 0px 0px 2px 0px;
+    opacity: 0px;
+}
+.login-btn-log{
+    background-color: #A9BCFF;
+    width: 15vw;
+    height: 5vh;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #474444;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    left: 32vw;
+}
