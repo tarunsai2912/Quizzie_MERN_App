@@ -321,7 +321,7 @@ function CreateQuiz({handleAnalytics}) {
         <img className='success-close-createquiz' src={crossBtn} alt='cross' width='30vw' height='30vh' onClick={handleAnalytics}></img>
         <div className='success-div-createquiz'>
           <h1 className='success-head-createquiz'>Congrats your Quiz is Published!</h1>
-          <input className='link-inp-createquiz' type='text' value={`https://quizzie-frontend-sandy.vercel.app/${quizId}/attempt`}></input>
+          <input className='link-inp-createquiz' type='text' value={`https://quizzie-mern-frontend.vercel.app/${quizId}/attempt`}></input>
           <button className='share-btn-createquiz' onClick={() => handleShare(quizId)}>Share</button>
         </div>
       </div>}
