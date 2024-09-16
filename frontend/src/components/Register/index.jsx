@@ -86,7 +86,7 @@ function Register({handleLogin}) {
             handleLogin()
         }
         else{
-            alert('Failed to Register')
+            alert('User Already Exists')
             setLoading(false)
         }
     }
