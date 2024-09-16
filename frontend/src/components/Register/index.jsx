@@ -96,22 +96,22 @@ function Register({handleLogin}) {
     {!loading ? <div className='reg-container'>
         <div className='name-div-reg'>
           <p className='name-para-reg'>Name</p>
-          <input type='text' name='name' className='name-input-reg' value={formData.name} onChange={handleChange} style={{border: errors.name ? '2px solid #D60000' : '2px solid #F4F4F4'}}></input>
+          <input type='text' name='name' className='name-input-reg' value={errors.name ? '' : formData.name} onChange={handleChange} style={{border: errors.name ? '2px solid #D60000' : '2px solid #F4F4F4'}}></input>
           {errors.name && <span className='name-err-reg' style={{ color: 'red' }}>{errors.name}</span>}
         </div>
         <div className='email-div-reg'>
           <p className='email-para-reg'>Email</p>
-          <input type='email' name='email' className='email-input-reg' value={formData.email} onChange={handleChange} style={{border: errors.email ? '2px solid #D60000' : '2px solid #F4F4F4'}}></input>
+          <input type='email' name='email' className='email-input-reg' value={errors.email ? '' : formData.email} onChange={handleChange} style={{border: errors.email ? '2px solid #D60000' : '2px solid #F4F4F4'}}></input>
           {errors.email && <span className='email-err-reg' style={{ color: 'red' }}>{errors.email}</span>}
         </div>
         <div className='pass-div-reg'>
           <p className='pass-para-reg'>Password</p>
-          <input type='password' name='password' className='pass-input-reg' value={formData.password} onChange={handleChange} style={{border: errors.password ? '2px solid #D60000' : '2px solid #F4F4F4'}}></input>
+          <input type='password' name='password' className='pass-input-reg' value={errors.password ? '' : formData.password} onChange={handleChange} style={{border: errors.password ? '2px solid #D60000' : '2px solid #F4F4F4'}}></input>
           {errors.password && <span className='pass-err-reg' style={{ color: 'red' }}>{errors.password}</span>}
         </div>
         <div className='confpass-div-reg'>
           <p className='confpass-para-reg'>Confirm Password</p>
-          <input type='password' name='confirmPassword' className='confpass-input-reg' value={formData.confirmPassword} onChange={handleChange} style={{border: errors.confirmPassword ? '2px solid #D60000' : '2px solid #F4F4F4'}}></input>
+          <input type='password' name='confirmPassword' className='confpass-input-reg' value={errors.confirmPassword ? '' : formData.confirmPassword} onChange={handleChange} style={{border: errors.confirmPassword ? '2px solid #D60000' : '2px solid #F4F4F4'}}></input>
           {errors.confirmPassword && <span className='confpass-err-reg' style={{ color: 'red' }}>{errors.confirmPassword}</span>}
         </div>
         <button onClick={handleSubmit} className='signup-btn-reg'>Sign-Up</button>
