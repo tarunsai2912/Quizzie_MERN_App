@@ -83,7 +83,7 @@ function Login() {
       navigate('/home')
     }
     else{
-      alert('Login Failed')
+      alert('Password/Email is incorrect!')
       setFormData({
         email: '',
         password: ''
@@ -97,11 +97,13 @@ function Login() {
     {!loading ? <div className='log-container'>
       <div className='email-div-log'>
         <p className='email-para-log'>Email</p>
-        <input type='email' name='email' value={formData.email} className='email-input-log' onChange={handleChange}></input>
+        <input type='email' name='email' value={formData.email} className='email-input-log' onChange={handleChange} style={{border: errors.email ? '2px solid #D60000' : '2px solid #F4F4F4'}}></input>
+        {errors.email && <span className='email-err-log' style={{ color: 'red' }}>{errors.email}</span>}
       </div>
       <div className='pass-div-log'>
         <p className='pass-para-log'>Password</p>
-        <input type='password' name='password' value={formData.password} className='pass-input-log' onChange={handleChange}></input>
+        <input type='password' name='password' value={formData.password} className='pass-input-log' onChange={handleChange} style={{border: errors.password ? '2px solid #D60000' : '2px solid #F4F4F4'}}></input>
+        {errors.password && <span className='pass-err-log' style={{ color: 'red' }}>{errors.password}</span>}
       </div>
       <button onClick={handleSubmit} className='login-btn-log'>Log In</button>
     </div> : <div style={{position: 'relative', left:'40vw'}}><ClipLoader color={"#36D7B7"} loading={loading} size={100} /></div>}

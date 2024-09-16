@@ -33,6 +33,14 @@
     border: 0px 0px 2px 0px;
     opacity: 0px;
 }
+.email-err-log{
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: 500;
+    position: relative;
+    top: 1.3vh;
+    right: 27vw;
+}
 .pass-div-log{
     display: flex;
     flex-direction: row;
@@ -60,6 +68,14 @@
     border-radius: 10px 10px 0px 0px;
     border: 0px 0px 2px 0px;
     opacity: 0px;
+}
+.pass-err-log{
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: 500;
+    position: relative;
+    top: 1.3vh;
+    right: 27vw;
 }
 .login-btn-log{
     background-color: #A9BCFF;
